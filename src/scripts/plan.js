@@ -1,6 +1,8 @@
+/*It is determined what will be planted in which part of the farm throughout the year.Here, the system generates a random planting plan. Consider a field with 3 rows and 6 cells in each row.*/
+
 const types = ["Soybean", "Corn", "Asparagus", "Wheat", "Potato", "Sunflower"]
 
-export const createPlan = () => {
+export const createPlan = () => { //use to generate the plan what to plant throughout the year.
     const plan = []
 
     for (let index = 0; index < 3; index++) {

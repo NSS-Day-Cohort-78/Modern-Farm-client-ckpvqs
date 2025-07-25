@@ -31,6 +31,26 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .red {
-    background-color: darksalmon;
+    background-color: darksalmon; /*NSS*/
 }
 
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    padding: 20px;
+    background-color: #fdfcc4; /* light yellow */
+}
+
+.plant {
+    flex: 0 1 calc(16.66% - 12px); /* I learnt https://learntheweb.courses/topics/css-variables/ */
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 0;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+}
